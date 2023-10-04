@@ -41,7 +41,7 @@ const Navi = (props) => {
 
         <div className='nav-Bar-Container-top'>
           <div className='left'>
-            <Link href="https://discord.gg/Nr93rPReSu">
+            <Link href="https://discord.gg/5fZvperhgh">
               <Image src={discord} width={0} height={0} sizes="100vw" style={{ width: '24px', height: '24px' }} alt='knoopo discord'/>
             </Link>
             <Link href="https://www.twitch.tv/knoopo">

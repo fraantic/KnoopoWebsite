@@ -1,20 +1,30 @@
 "use client";
 
-import youtube from '../../public/svgs/youtube.svg'
 import React, { useState, useEffect, useRef } from 'react'
-import { Carousel } from 'antd';
-import backgroundimg from '../../public/pngs/background.png'
-import twitter from '../../public/svgs/twitter.svg'
-import grizzly from '../../public/packimg/grizzly.png'
-import download from '../../public/svgs/download.svg'
 import Image from 'next/image'
-import twitch from '../../public/svgs/twitch.svg'
-import './landing.scss'
 import Link from 'next/link';
+import { useInView } from "framer-motion"
+import { Carousel } from 'antd';
+import './landing.scss'
+
 import Reveal from '@/components/Reveal/Reveal'
 import RevealSlide from '@/components/Reveal/Revealbox'
 import Navi from '@/components/Navi/Navi'
-import { useInView } from "framer-motion"
+
+import youtube from '../../public/svgs/youtube.svg'
+import twitter from '../../public/svgs/twitter.svg'
+import download from '../../public/svgs/download.svg'
+import twitch from '../../public/svgs/twitch.svg'
+
+import knoopo from '../../public/pngs/knoopoPFP.png'
+import fraantic from '../../public/pngs/fraantic.png'
+import sumo from '../../public/pngs/sumo.png'
+import blocks from '../../public/pngs/blocks.png'
+import iman from '../../public/pngs/iman.png'
+import miro from '../../public/pngs/miro.png'
+import fatasi from '../../public/pngs/fantasi.png'
+
+import grizzly from '../../public/packimg/grizzly.png'
 
 const Page = () => {
   const [viewLanding, setViewLanding] = useState(false)
@@ -122,6 +132,78 @@ const Page = () => {
         <Reveal> 
           <h3 className='title-text pack-text'>Guild</h3>
         </Reveal>
+        <div className='guild-info-container'>
+          <div className='about-guild-container'>
+            <p className='title-about'>About Guild</p>
+            <div>
+              <p className='meetknoopo-text'>The Cuppatea guild expertly run by Knoopo is mostly comprised of Bedwars and Skyblock players fueled on caffeine and unemployment. Together these players make up the foundation of the strongest guild in hypixel and soon to be hypixel china. One of the reasons for the high skill level of players in the Cuppatea guild are the tournaments held biannually, being a outlet for the display of individual skills and expert team coordination.</p>
+              <p className='meetknoopo-text'>Understanding the present and planning for the future is a key part of our guild&apos;s ideology. We are constantly planning events, increasing the liveliness of our guild. Cuppatea actively searches for ways to improve their guild members&apos; skills and increase notoriety amongst the community by besting other guilds in battle. Honour and glory to CUPPATEA. COME FORTH HYPIXELIANS, RISE UP AND SEEK GLORY. FORGET YOUR SEDANTARY LIFESTYLES. FIGHT FOR A PURPOSE. FIGHT FOR YOUR HONOUR MY TEAMAKERS.</p>
+            </div>
+          </div>
+          <div className='extra-guild-info'>
+            <div>
+              <p className='title-about'>Guild Staff</p>
+              <div className='staff-flex margin-bottom'>
+                <div className='staff-display'>
+                  <Image src={knoopo} width={0} height={0} sizes="100vw" style={{ width: '45px', height: '45px' }} className='profile-image' alt='knoopo youtube'/>
+                  <div className='staff-desc-container'>
+                    <p className='desc-text-staff' >OWNER</p>
+                    <p className='desc-text-staff' >Knoopo</p>
+                  </div>
+                </div>
+                <div className='staff-display'>
+                  <Image src={fraantic} width={0} height={0} sizes="100vw" style={{ width: '45px', height: '45px' }} className='profile-image' alt='knoopo youtube'/>
+                  <div className='staff-desc-container'>
+                    <p className='desc-text-staff' >H-Admin</p>
+                    <p className='desc-text-staff' >fraantic</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className='staff-flex'>
+                <div className='staff-display'>
+                  <Image src={fatasi} width={0} height={0} sizes="100vw" style={{ width: '45px', height: '45px' }} className='profile-image' alt='knoopo youtube'/>
+                  <div className='staff-desc-container'>
+                    <p className='desc-text-staff' >Admin</p>
+                    <p className='desc-text-staff' >Fantasi</p>
+                  </div>
+                </div>
+                <div className='staff-display'>
+                  <Image src={blocks} width={0} height={0} sizes="100vw" style={{ width: '45px', height: '45px' }} className='profile-image' alt='knoopo youtube'/>
+                  <div className='staff-desc-container'>
+                    <p className='desc-text-staff' >Admin</p>
+                    <p className='desc-text-staff' >blocks</p>
+                  </div>
+                </div>
+                <div className='staff-display'>
+                  <Image src={sumo} width={0} height={0} sizes="100vw" style={{ width: '45px', height: '45px' }} className='profile-image' alt='knoopo youtube'/>
+                  <div className='staff-desc-container'>
+                    <p className='desc-text-staff' >Admin</p>
+                    <p className='desc-text-staff' >sumo</p>
+                  </div>
+                </div>
+                <div className='staff-display'>
+                  <Image src={iman} width={0} height={0} sizes="100vw" style={{ width: '45px', height: '45px' }} className='profile-image' alt='knoopo youtube'/>
+                  <div className='staff-desc-container'>
+                    <p className='desc-text-staff' >Admin</p>
+                    <p className='desc-text-staff' >iman</p>
+                  </div>
+                </div>
+                <div className='staff-display'>
+                  <Image src={miro} width={0} height={0} sizes="100vw" style={{ width: '45px', height: '45px' }} className='profile-image' alt='knoopo youtube'/>
+                  <div className='staff-desc-container'>
+                    <p className='desc-text-staff' >Admin</p>
+                    <p className='desc-text-staff' >miro</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <p className='title-about'>Apply</p>
+              <p className='meetknoopo-text'>To join our guild you need to meet one prerequisite, subscribe to knoopo. Otherwise join the discord, create a application ticket and follow the instructions</p>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div  className='texturepackslider-container'>
@@ -133,7 +215,7 @@ const Page = () => {
           <div className='packslist'>
             <RevealSlide >
               <div className='pack-container'>
-                <Carousel className='pack-carosel'>
+                <Carousel className='pack-carosel' swipeToSlide draggable>
                   <div>
                     <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='grizzly knoopo'/>
                   </div>
@@ -157,7 +239,7 @@ const Page = () => {
             </RevealSlide>
             <RevealSlide >
               <div className='pack-container'>
-                <Carousel className='pack-carosel'>
+                <Carousel className='pack-carosel' swipeToSlide draggable>
                   <div>
                     <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='grizzly knoopo'/>
                   </div>
@@ -181,7 +263,7 @@ const Page = () => {
             </RevealSlide>
             <RevealSlide >
               <div className='pack-container'>
-                <Carousel className='pack-carosel'>
+                <Carousel className='pack-carosel' swipeToSlide draggable>
                   <div>
                     <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='grizzly knoopo'/>
                   </div>
@@ -205,7 +287,7 @@ const Page = () => {
             </RevealSlide>
             <RevealSlide >
               <div className='pack-container'>
-                <Carousel className='pack-carosel'>
+                <Carousel className='pack-carosel' swipeToSlide draggable>
                   <div>
                     <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='grizzly knoopo'/>
                   </div>
@@ -229,7 +311,7 @@ const Page = () => {
             </RevealSlide>
             <RevealSlide >
               <div className='pack-container'>
-                <Carousel className='pack-carosel'>
+                <Carousel className='pack-carosel' swipeToSlide draggable>
                   <div>
                     <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='grizzly knoopo'/>
                   </div>
@@ -253,7 +335,7 @@ const Page = () => {
             </RevealSlide>
             <RevealSlide >
               <div className='pack-container'>
-                <Carousel className='pack-carosel'>
+                <Carousel className='pack-carosel' swipeToSlide draggable>
                   <div>
                     <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='grizzly knoopo'/>
                   </div>
@@ -277,7 +359,7 @@ const Page = () => {
             </RevealSlide>
             <RevealSlide >
               <div className='pack-container'>
-                <Carousel className='pack-carosel'>
+                <Carousel className='pack-carosel' swipeToSlide draggable>
                   <div>
                     <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='grizzly knoopo'/>
                   </div>
@@ -301,7 +383,7 @@ const Page = () => {
             </RevealSlide>
             <RevealSlide >
               <div className='pack-container'>
-                <Carousel className='pack-carosel'>
+                <Carousel className='pack-carosel' swipeToSlide draggable>
                   <div>
                     <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='grizzly knoopo'/>
                   </div>
@@ -325,7 +407,7 @@ const Page = () => {
             </RevealSlide>
             <RevealSlide >
               <div className='pack-container'>
-                <Carousel className='pack-carosel'>
+                <Carousel className='pack-carosel' swipeToSlide draggable>
                   <div>
                     <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='grizzly knoopo'/>
                   </div>
@@ -349,7 +431,7 @@ const Page = () => {
             </RevealSlide>
             <RevealSlide >
               <div className='pack-container'>
-                <Carousel className='pack-carosel'>
+                <Carousel className='pack-carosel' swipeToSlide draggable>
                   <div>
                     <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='grizzly knoopo'/>
                   </div>
@@ -373,7 +455,7 @@ const Page = () => {
             </RevealSlide>
             <RevealSlide >
               <div className='pack-container'>
-                <Carousel className='pack-carosel'>
+                <Carousel className='pack-carosel' swipeToSlide draggable>
                   <div>
                     <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='grizzly knoopo'/>
                   </div>
@@ -397,7 +479,7 @@ const Page = () => {
             </RevealSlide>
             <RevealSlide >
               <div className='pack-container'>
-                <Carousel className='pack-carosel'>
+                <Carousel className='pack-carosel' swipeToSlide draggable>
                   <div>
                     <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='grizzly knoopo'/>
                   </div>
@@ -421,7 +503,7 @@ const Page = () => {
             </RevealSlide>
             <RevealSlide >
               <div className='pack-container'>
-                <Carousel className='pack-carosel'>
+                <Carousel className='pack-carosel' swipeToSlide draggable>
                   <div>
                     <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='grizzly knoopo'/>
                   </div>
@@ -445,7 +527,7 @@ const Page = () => {
             </RevealSlide>
             <RevealSlide >
               <div className='pack-container'>
-                <Carousel className='pack-carosel'>
+                <Carousel className='pack-carosel'swipeToSlide draggable>
                   <div>
                     <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='grizzly knoopo'/>
                   </div>
@@ -469,7 +551,7 @@ const Page = () => {
             </RevealSlide>
             <RevealSlide >
               <div className='pack-container'>
-                <Carousel className='pack-carosel'>
+                <Carousel className='pack-carosel' swipeToSlide draggable>
                   <div>
                     <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='grizzly knoopo'/>
                   </div>
