@@ -134,73 +134,99 @@ const Page = () => {
         </Reveal>
         <div className='guild-info-container'>
           <div className='about-guild-container'>
-            <p className='title-about'>About Guild</p>
+            <Reveal>
+              <p className='title-about'>About Guild</p>
+            </Reveal>
             <div>
-              <p className='meetknoopo-text'>The Cuppatea guild expertly run by Knoopo is mostly comprised of Bedwars and Skyblock players fueled on caffeine and unemployment. Together these players make up the foundation of the strongest guild in hypixel and soon to be hypixel china. One of the reasons for the high skill level of players in the Cuppatea guild are the tournaments held biannually, being a outlet for the display of individual skills and expert team coordination.</p>
-              <p className='meetknoopo-text'>Understanding the present and planning for the future is a key part of our guild&apos;s ideology. We are constantly planning events, increasing the liveliness of our guild. Cuppatea actively searches for ways to improve their guild members&apos; skills and increase notoriety amongst the community by besting other guilds in battle. Honour and glory to CUPPATEA. COME FORTH HYPIXELIANS, RISE UP AND SEEK GLORY. FORGET YOUR SEDANTARY LIFESTYLES. FIGHT FOR A PURPOSE. FIGHT FOR YOUR HONOUR MY TEAMAKERS.</p>
+              <Reveal>
+                <p className='meetknoopo-text'>The Cuppatea guild expertly run by Knoopo is mostly comprised of Bedwars and Skyblock players fueled on caffeine and unemployment. Together these players make up the foundation of the strongest guild in hypixel and soon to be hypixel china. One of the reasons for the high skill level of players in the Cuppatea guild are the tournaments held biannually, being a outlet for the display of individual skills and expert team coordination.</p>
+              </Reveal>
+              <Reveal>
+                <p className='meetknoopo-text'>Understanding the present and planning for the future is a key part of our guild&apos;s ideology. We are constantly planning events, increasing the liveliness of our guild. Cuppatea actively searches for ways to improve their guild members&apos; skills and increase notoriety amongst the community by besting other guilds in battle. Honour and glory to CUPPATEA. COME FORTH HYPIXELIANS, RISE UP AND SEEK GLORY. FORGET YOUR SEDANTARY LIFESTYLES. FIGHT FOR A PURPOSE. FIGHT FOR YOUR HONOUR MY TEAMAKERS.</p>
+              </Reveal>
             </div>
           </div>
           <div className='extra-guild-info'>
             <div>
-              <p className='title-about'>Guild Staff</p>
+              <Reveal>
+                <p className='title-about'>Guild Staff</p>
+              </Reveal>
               <div className='staff-flex margin-bottom'>
-                <div className='staff-display'>
-                  <Image src={knoopo} width={0} height={0} sizes="100vw" style={{ width: '45px', height: '45px' }} className='profile-image' alt='knoopo youtube'/>
-                  <div className='staff-desc-container'>
-                    <p className='desc-text-staff' >OWNER</p>
-                    <p className='desc-text-staff' >Knoopo</p>
+                <Reveal>
+                  <div className='staff-display'>
+                    <Image src={knoopo} width={0} height={0} sizes="100vw" style={{ width: '45px', height: '45px' }} className='profile-image' alt='knoopo youtube'/>
+                    <div className='staff-desc-container'>
+                      <p className='desc-text-staff' >OWNER</p>
+                      <p className='desc-text-staff' >Knoopo</p>
+                    </div>
                   </div>
-                </div>
-                <div className='staff-display'>
-                  <Image src={fraantic} width={0} height={0} sizes="100vw" style={{ width: '45px', height: '45px' }} className='profile-image' alt='knoopo youtube'/>
-                  <div className='staff-desc-container'>
-                    <p className='desc-text-staff' >H-Admin</p>
-                    <p className='desc-text-staff' >fraantic</p>
+                </Reveal>
+                <Reveal>
+                  <div className='staff-display'>
+                    <Image src={fraantic} width={0} height={0} sizes="100vw" style={{ width: '45px', height: '45px' }} className='profile-image' alt='knoopo youtube'/>
+                    <div className='staff-desc-container'>
+                      <p className='desc-text-staff' >H-Admin</p>
+                      <p className='desc-text-staff' >fraantic</p>
+                    </div>
                   </div>
-                </div>
+                </Reveal>
               </div>
 
               <div className='staff-flex'>
-                <div className='staff-display'>
-                  <Image src={fatasi} width={0} height={0} sizes="100vw" style={{ width: '45px', height: '45px' }} className='profile-image' alt='knoopo youtube'/>
-                  <div className='staff-desc-container'>
-                    <p className='desc-text-staff' >Admin</p>
-                    <p className='desc-text-staff' >Fantasi</p>
+                <Reveal>
+                  <div className='staff-display'>
+                    <Image src={fatasi} width={0} height={0} sizes="100vw" style={{ width: '45px', height: '45px' }} className='profile-image' alt='knoopo youtube'/>
+                    <div className='staff-desc-container'>
+                      <p className='desc-text-staff' >Admin</p>
+                      <p className='desc-text-staff' >Fantasi</p>
+                    </div>
                   </div>
-                </div>
-                <div className='staff-display'>
-                  <Image src={blocks} width={0} height={0} sizes="100vw" style={{ width: '45px', height: '45px' }} className='profile-image' alt='knoopo youtube'/>
-                  <div className='staff-desc-container'>
-                    <p className='desc-text-staff' >Admin</p>
-                    <p className='desc-text-staff' >blocks</p>
+                </Reveal>
+                <Reveal>
+                  <div className='staff-display'>
+                    <Image src={blocks} width={0} height={0} sizes="100vw" style={{ width: '45px', height: '45px' }} className='profile-image' alt='knoopo youtube'/>
+                    <div className='staff-desc-container'>
+                      <p className='desc-text-staff' >Admin</p>
+                      <p className='desc-text-staff' >blocks</p>
+                    </div>
                   </div>
-                </div>
-                <div className='staff-display'>
-                  <Image src={sumo} width={0} height={0} sizes="100vw" style={{ width: '45px', height: '45px' }} className='profile-image' alt='knoopo youtube'/>
-                  <div className='staff-desc-container'>
-                    <p className='desc-text-staff' >Admin</p>
-                    <p className='desc-text-staff' >sumo</p>
+                </Reveal>
+                <Reveal>
+                  <div className='staff-display'>
+                    <Image src={sumo} width={0} height={0} sizes="100vw" style={{ width: '45px', height: '45px' }} className='profile-image' alt='knoopo youtube'/>
+                    <div className='staff-desc-container'>
+                      <p className='desc-text-staff' >Admin</p>
+                      <p className='desc-text-staff' >sumo</p>
+                    </div>
                   </div>
-                </div>
-                <div className='staff-display'>
-                  <Image src={iman} width={0} height={0} sizes="100vw" style={{ width: '45px', height: '45px' }} className='profile-image' alt='knoopo youtube'/>
-                  <div className='staff-desc-container'>
-                    <p className='desc-text-staff' >Admin</p>
-                    <p className='desc-text-staff' >iman</p>
+                </Reveal>
+                <Reveal>
+                  <div className='staff-display'>
+                    <Image src={iman} width={0} height={0} sizes="100vw" style={{ width: '45px', height: '45px' }} className='profile-image' alt='knoopo youtube'/>
+                    <div className='staff-desc-container'>
+                      <p className='desc-text-staff' >Admin</p>
+                      <p className='desc-text-staff' >iman</p>
+                    </div>
                   </div>
-                </div>
-                <div className='staff-display'>
-                  <Image src={miro} width={0} height={0} sizes="100vw" style={{ width: '45px', height: '45px' }} className='profile-image' alt='knoopo youtube'/>
-                  <div className='staff-desc-container'>
-                    <p className='desc-text-staff' >Admin</p>
-                    <p className='desc-text-staff' >miro</p>
+                </Reveal>
+                <Reveal>
+                  <div className='staff-display'>
+                    <Image src={miro} width={0} height={0} sizes="100vw" style={{ width: '45px', height: '45px' }} className='profile-image' alt='knoopo youtube'/>
+                    <div className='staff-desc-container'>
+                      <p className='desc-text-staff' >Admin</p>
+                      <p className='desc-text-staff' >miro</p>
+                    </div>
                   </div>
-                </div>
+                </Reveal>
               </div>
             </div>
             <div>
-              <p className='title-about'>Apply</p>
-              <p className='meetknoopo-text'>To join our guild you need to meet one prerequisite, subscribe to knoopo. Otherwise join the discord, create a application ticket and follow the instructions</p>
+              <Reveal>
+                <p className='title-about'>Apply</p>
+              </Reveal>
+              <Reveal>
+                <p className='meetknoopo-text'>To join our guild you need to meet one prerequisite, subscribe to knoopo. Otherwise join the discord, create a application ticket and follow the instructions</p>
+              </Reveal>
             </div>
           </div>
         </div>
