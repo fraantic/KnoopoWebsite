@@ -1,0 +1,14 @@
+.noborder {
+    margin: 0;
+}
+
+html {
+    scrollbar-width: none;
+    background-color: #17161a;
+    scroll-behavior: smooth;
+}
+
+
+body::-webkit-scrollbar {
+    display: none;
+}
