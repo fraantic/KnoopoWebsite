@@ -27,6 +27,9 @@ const Navi = (props) => {
               <p className='locator-text'>About</p>
             </Link>
             <Link className={`no-line ${props.Packs ? 'border-green' : ''}`}  href="/#texture-container">
+              <p className='locator-text'>Guild</p>
+            </Link>
+            <Link className={`no-line ${props.Packs ? 'border-green' : ''}`}  href="/#texture-container">
               <p className='locator-text'>Packs</p>
             </Link>
             <Link className={`no-line ${props.Contact ? '' : ''}`} href="#knoopo-text">
@@ -38,21 +41,21 @@ const Navi = (props) => {
 
         <div className='nav-Bar-Container-top'>
           <div className='left'>
-            <Link href="discord.gg">
+            <Link href="https://discord.gg/Nr93rPReSu">
               <Image src={discord} width={0} height={0} sizes="100vw" style={{ width: '24px', height: '24px' }} alt='knoopo discord'/>
             </Link>
-            <Link href="twitch.tv/knoopo">
+            <Link href="https://www.twitch.tv/knoopo">
               <Image src={twitch} width={0} height={0} sizes="100vw" style={{ width: '24px', height: '24px' }} alt='knoopo twitch'/>
             </Link>
-            <Link href="youtube.com/knoopo">
+            <Link href="https://www.youtube.com/@knoopo">
               <Image src={youtube} width={0} height={0} sizes="100vw" style={{ width: '24px', height: '24px' }} alt='knoopo youtube'/>
             </Link>
-            <Link href="x.com/knoopo">
+            <Link href="https://twitter.com/Knoopo1">
               <Image src={twitter} width={0} height={0} sizes="100vw" style={{ width: '24px', height: '24px' }} alt='knoopo twitter'/>
             </Link>
           </div>
           <div className='right'>
-            <a href="#" class="btn-flip" data-back="Subscribe" data-front="Knoopo"></a>
+            <a href="https://www.youtube.com/@knoopo/about" class="btn-flip" data-back="Subscribe" data-front="Knoopo"></a>
           </div>
         </div>
       </div>
