@@ -15,6 +15,20 @@
     color: white;
 }
 
+.pack-text {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.nav-to {
+    position: absolute;
+    margin-top: -100px;
+    visibility: hidden;
+    width: 40px;
+    height: 40px;
+    background-color: gold;
+}
+
 .background-knoopo {
     width: 100%;
     height: 900px;
@@ -47,18 +61,13 @@
 }
 
 .texturepackslider-container {
-    position: absolute;
-    margin-right: 0;
-    right: 0;
+    margin-top: 300;
+    position: relative;
+    float: right;
     width: calc(100% - 60px);
-    height: 1000px;
+    height: 2200px;
     flex-direction: column;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
-    .pack-text {
-        margin-left: 30px;
-        margin-bottom: 20px;
-    }
 
     .packslist {
         margin-left: 30px;
@@ -116,7 +125,7 @@
                     .pack-desc {
                         margin-top: -5px;
                         font-family: Poppins;
-                        color: white;
+                        color: rgb(200, 200, 200);
                     }
                     .download-image {
                         position: absolute;
@@ -127,4 +136,71 @@
             }
         }
     }
+}
+
+.About-container {
+    margin-right: 0;
+    right: 0;
+    position: relative;
+    width: calc(100% - 60px);
+    height: 650px;
+    float: right;
+    
+    .organise-about {
+        position: relative;
+        width: calc(100% - 30px);
+        height: 800px;
+        display: flex;
+        justify-content: flex-start;
+        gap: 30px;
+
+        .title-about {
+            font-size: 30px;
+            font-family: Poppins;
+            color: rgb(200, 200, 200);
+            
+        }
+
+        .desc-text-container {
+        margin-left: 30px;
+        width: 800px;
+        height: 400px;
+
+            .meetknoopo-text {
+                font-family: Poppins;
+                color: rgb(200, 200, 200);
+            }
+        }
+
+        .statistics-container {
+            position: relative;
+            width: 570px;
+            height: 400px;
+
+            .statistics-single {
+                height: 64px;
+                width: 500px;
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                .num-text {
+                    margin-left: 10px;
+                    display: inline;
+                    font-family: Poppins;
+                    font-size: 30px;
+                    color: rgb(200, 200, 200);
+                }
+            }
+        }
+    }
+}
+
+.guild-container {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px -12px 30px, ;
+    margin-right: 0;
+    right: 0;
+    position: relative;
+    width: calc(100% - 60px);
+    height: 600px;
+    float: right;
 }
