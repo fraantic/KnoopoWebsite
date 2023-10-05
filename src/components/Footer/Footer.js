@@ -1,42 +1,13 @@
 import "./Footer.scss"
+import react from '../../../public/pngs/React.png'
+import nextjs from '../../../public/pngs/nextjs.png'
+import antdesign from '../../../public/svgs/antdesign.svg'
+import Image from 'next/image'
 
 const Footer = () => {
   return (
-    <div className="back">
-    <p>Footer</p>
-    <p>Footer</p>
-    <p>Footer</p>
-    <p>Footer</p>
-
-    <p>Footer</p>
-
-    <p>Footer</p>
-    <p>Footer</p>
-
-    <p>Footer</p>
-
-    <p>Footer</p>
-    <p>Footer</p>
-    <p>Footer</p>
-
-    <p>Footer</p>
-    <p>Footer</p>
-
-    <p>Footer</p>
-    <p>Footer</p>
-
-    <p>Footer</p>
-    <p>Footer</p>
-
-
-    <p>Footer</p>
-
-
-    <p>Footer</p>
-    <p>Footer</p>
-    <p>Footer</p>
-    <p>Footer</p>
-    <p>Footer</p>
+    <div >
+      
     </div>
   )
 }

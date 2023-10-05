@@ -1,3 +1,60 @@
 p {
     color: white;
 }
+
+.footer-container {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px -12px 30px, ;
+    margin-right: 0;
+    right: 0;
+    position: relative;
+    width: calc(100% - 60px);
+    height: 350px;
+    float: right;
+    background-color: rgb(66, 59, 77);
+    display: flex;
+    justify-content: space-between;
+
+
+    .made-with {
+        .title-made-with {
+            font-family: Poppins;
+            font-size: 25px;
+            color: rgb(200, 200, 200);
+        }
+        .box-made {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            .flex-made-with {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 15px;
+                .made-with-image {
+                    display: inline;
+                }
+                .made-with-name {
+                    font-size: 20px;
+                    margin: 0;
+                    display: inline;
+                    font-family: Poppins;
+                    color: rgb(200, 200, 200);
+                }
+            }
+            .title-by {
+                display: inline;
+                margin: 0;
+                font-family: Poppins;
+                font-size: 15px;
+                color: rgb(200, 200, 200);
+            }
+            .name-text-made {
+                display: inline;
+                margin: 0;
+                font-family: Poppins;
+                font-size: 15px;
+                color: rgb(200, 200, 200);
+            }
+        }
+    }
+}
