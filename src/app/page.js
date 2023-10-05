@@ -15,6 +15,7 @@ import youtube from '../../public/svgs/youtube.svg'
 import twitter from '../../public/svgs/twitter.svg'
 import download from '../../public/svgs/download.svg'
 import twitch from '../../public/svgs/twitch.svg'
+import email from '../../public/pngs/email.png'
 
 import knoopo from '../../public/pngs/knoopoPFP.png'
 import fraantic from '../../public/pngs/fraantic.png'
@@ -602,6 +603,35 @@ const Page = () => {
           </div>
         </div>
       </div>
+
+      <div className='contact-container'>
+        <div className='contact-item-contaier'>
+          <Reveal>
+            <p className='big-contact'>Contact<p className='green-dot'>.</p></p>
+          </Reveal>
+          <Reveal>
+            <p className='contact-text'>Drop me an email if you wish to get in touch. You can also find me on 
+              <Link className='nodecor' href="https://discord.gg/5fZvperhgh">
+              &nbsp;Discord&nbsp;
+              </Link>
+              or 
+              <Link className='nodecor' href="https://twitter.com/Knoopo1" >
+              &nbsp;Twitter&nbsp;
+              </Link>
+              if thats more your style
+            </p>
+          </Reveal>
+          <div className='email-container'>
+            <Reveal>
+            <Image src={email} width={0} height={0} sizes="100vw" style={{ width: '30px', height: '30px' }} alt='download grizzly'/>
+              <Link className='nodec' href="mailto:knoopobear@gmail.com">
+                <p className='email-text'>knoopobear@gmail.com</p>
+              </Link>
+            </Reveal>
+          </div>
+        </div>
+      </div>
+
     </div>
     </>
   )

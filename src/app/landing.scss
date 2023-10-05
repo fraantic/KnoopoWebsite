@@ -79,7 +79,8 @@
     width: calc(100% - 60px);
     height: 2200px;
     flex-direction: column;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px -12px 30px, ;
+
 
     .packslist {
         margin-left: 30px;
@@ -260,6 +261,67 @@
                         border-radius: 20px;
                     }
                 }
+            }
+        }
+    }
+}
+
+.contact-container {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px -12px 30px, ;
+    margin-right: 0;
+    right: 0;
+    position: relative;
+    width: calc(100% - 60px);
+    height: 750px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .contact-item-contaier {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        gap: 20;
+        width: 700px;
+        height: 50px;
+        align-items: center;
+        margin-bottom: 300px;
+        .big-contact {
+            font-family: Poppins;
+            font-size: 120px;
+            margin: 0;
+            display: inline;
+            font-weight: 900;
+            .green-dot {
+                display: inline;
+                color: #5141ff;
+            }
+        }
+        .contact-text {
+            font-family: Poppins;
+            color: rgb(200, 200, 200);
+            margin: 0;
+            font-size: 24px;
+            .nodecor {
+                text-decoration: none;
+                color: #5141ff;
+            }
+        }
+        .email-container {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: row;
+            width: auto;
+            gap: 20px;
+            align-items: center;
+            .nodec {
+                text-decoration: none;
+            }
+            .email-text {
+                display: inline;
+                font-family: Poppins;
+                font-size: 30px;
             }
         }
     }
