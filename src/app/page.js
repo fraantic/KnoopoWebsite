@@ -606,21 +606,25 @@ const Page = () => {
 
       <div className='contact-container'>
         <div className='contact-item-contaier'>
-          <Reveal>
-            <p className='big-contact'>Contact<p className='green-dot'>.</p></p>
-          </Reveal>
-          <Reveal>
-            <p className='contact-text'>Drop me an email if you wish to get in touch. You can also find me on 
-              <Link className='nodecor' href="https://discord.gg/5fZvperhgh">
-              &nbsp;Discord&nbsp;
-              </Link>
-              or 
-              <Link className='nodecor' href="https://twitter.com/Knoopo1" >
-              &nbsp;Twitter&nbsp;
-              </Link>
-              if thats more your style
-            </p>
-          </Reveal>
+          <div>
+            <Reveal>
+              <p className='big-contact'>Contact<p className='green-dot'>.</p></p> 
+            </Reveal>
+          </div>
+          <div>
+            <Reveal>
+              <p className='contact-text'>Drop me an email if you wish to get in touch. You can also find me on 
+                <Link className='nodecor' href="https://discord.gg/5fZvperhgh">
+                &nbsp;Discord&nbsp;
+                </Link>
+                or 
+                <Link className='nodecor' href="https://twitter.com/Knoopo1" >
+                &nbsp;Twitter&nbsp;
+                </Link>
+                if thats more your style
+              </p>
+            </Reveal>
+          </div>
           <div className='email-container'>
             <Reveal>
             <Image src={email} width={0} height={0} sizes="100vw" style={{ width: '30px', height: '30px' }} alt='download grizzly'/>
