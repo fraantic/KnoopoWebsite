@@ -223,10 +223,10 @@ const Page = () => {
                 </Reveal>
                 <Reveal>
                   <div className='staff-display'>
-                    <Image src={miro} width={0} height={0} sizes="100vw" style={{ width: '45px', height: '45px' }} className='profile-image' alt='knoopo youtube'/>
+                    <Image src={chub} width={0} height={0} sizes="100vw" style={{ width: '45px', height: '45px' }} className='profile-image' alt='knoopo youtube'/>
                     <div className='staff-desc-container'>
                       <p className='desc-text-staff' >Admin</p>
-                      <p className='desc-text-staff' >miro</p>
+                      <p className='desc-text-staff' >chub</p>
                     </div>
                   </div>
                 </Reveal>
