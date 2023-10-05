@@ -255,13 +255,7 @@ const Page = () => {
               <div className='pack-container'>
                 <Carousel className='pack-carosel' swipeToSlide draggable>
                   <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='grizzly knoopo'/>
-                  </div>
-                  <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='knoopo discord'/>
-                  </div>
-                  <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='knoopo discord'/>
+                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='grizzly download'/>
                   </div>
                 </Carousel>
 
@@ -279,13 +273,7 @@ const Page = () => {
               <div className='pack-container'>
                 <Carousel className='pack-carosel' swipeToSlide draggable>
                   <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='grizzly knoopo'/>
-                  </div>
-                  <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='knoopo discord'/>
-                  </div>
-                  <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='knoopo discord'/>
+                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='Lovely Lime download'/>
                   </div>
                 </Carousel>
 
@@ -303,13 +291,7 @@ const Page = () => {
               <div className='pack-container'>
                 <Carousel className='pack-carosel' swipeToSlide draggable>
                   <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='grizzly knoopo'/>
-                  </div>
-                  <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='knoopo discord'/>
-                  </div>
-                  <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='knoopo discord'/>
+                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='Esoteric download'/>
                   </div>
                 </Carousel>
 
@@ -327,13 +309,7 @@ const Page = () => {
               <div className='pack-container'>
                 <Carousel className='pack-carosel' swipeToSlide draggable>
                   <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='grizzly knoopo'/>
-                  </div>
-                  <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='knoopo discord'/>
-                  </div>
-                  <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='knoopo discord'/>
+                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='Gilded download'/>
                   </div>
                 </Carousel>
 
@@ -351,13 +327,7 @@ const Page = () => {
               <div className='pack-container'>
                 <Carousel className='pack-carosel' swipeToSlide draggable>
                   <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='grizzly knoopo'/>
-                  </div>
-                  <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='knoopo discord'/>
-                  </div>
-                  <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='knoopo discord'/>
+                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='Cuppa download'/>
                   </div>
                 </Carousel>
 
@@ -375,13 +345,7 @@ const Page = () => {
               <div className='pack-container'>
                 <Carousel className='pack-carosel' swipeToSlide draggable>
                   <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='grizzly knoopo'/>
-                  </div>
-                  <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='knoopo discord'/>
-                  </div>
-                  <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='knoopo discord'/>
+                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='Elder Nerd download'/>
                   </div>
                 </Carousel>
 
@@ -399,13 +363,7 @@ const Page = () => {
               <div className='pack-container'>
                 <Carousel className='pack-carosel' swipeToSlide draggable>
                   <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='grizzly knoopo'/>
-                  </div>
-                  <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='knoopo discord'/>
-                  </div>
-                  <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='knoopo discord'/>
+                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='Zippo download'/>
                   </div>
                 </Carousel>
 
@@ -423,13 +381,7 @@ const Page = () => {
               <div className='pack-container'>
                 <Carousel className='pack-carosel' swipeToSlide draggable>
                   <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='grizzly knoopo'/>
-                  </div>
-                  <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='knoopo discord'/>
-                  </div>
-                  <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='knoopo discord'/>
+                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='Kleos download'/>
                   </div>
                 </Carousel>
 
@@ -447,13 +399,7 @@ const Page = () => {
               <div className='pack-container'>
                 <Carousel className='pack-carosel' swipeToSlide draggable>
                   <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='grizzly knoopo'/>
-                  </div>
-                  <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='knoopo discord'/>
-                  </div>
-                  <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='knoopo discord'/>
+                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='Slut knoopo download'/>
                   </div>
                 </Carousel>
 
@@ -471,13 +417,7 @@ const Page = () => {
               <div className='pack-container'>
                 <Carousel className='pack-carosel' swipeToSlide draggable>
                   <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='grizzly knoopo'/>
-                  </div>
-                  <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='knoopo discord'/>
-                  </div>
-                  <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='knoopo discord'/>
+                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='Dolomite download'/>
                   </div>
                 </Carousel>
 
@@ -495,13 +435,7 @@ const Page = () => {
               <div className='pack-container'>
                 <Carousel className='pack-carosel' swipeToSlide draggable>
                   <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='grizzly knoopo'/>
-                  </div>
-                  <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='knoopo discord'/>
-                  </div>
-                  <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='knoopo discord'/>
+                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='Fiio download'/>
                   </div>
                 </Carousel>
 
@@ -519,13 +453,7 @@ const Page = () => {
               <div className='pack-container'>
                 <Carousel className='pack-carosel' swipeToSlide draggable>
                   <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='grizzly knoopo'/>
-                  </div>
-                  <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='knoopo discord'/>
-                  </div>
-                  <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='knoopo discord'/>
+                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='Bean knoopo download'/>
                   </div>
                 </Carousel>
 
@@ -543,13 +471,7 @@ const Page = () => {
               <div className='pack-container'>
                 <Carousel className='pack-carosel' swipeToSlide draggable>
                   <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='grizzly knoopo'/>
-                  </div>
-                  <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='knoopo discord'/>
-                  </div>
-                  <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='knoopo discord'/>
+                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='Pegasus download'/>
                   </div>
                 </Carousel>
 
@@ -567,13 +489,7 @@ const Page = () => {
               <div className='pack-container'>
                 <Carousel className='pack-carosel'swipeToSlide draggable>
                   <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='grizzly knoopo'/>
-                  </div>
-                  <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='knoopo discord'/>
-                  </div>
-                  <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='knoopo discord'/>
+                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='knoopo 32x download'/>
                   </div>
                 </Carousel>
 
@@ -591,13 +507,7 @@ const Page = () => {
               <div className='pack-container'>
                 <Carousel className='pack-carosel' swipeToSlide draggable>
                   <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='grizzly knoopo'/>
-                  </div>
-                  <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='knoopo discord'/>
-                  </div>
-                  <div>
-                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='knoopo discord'/>
+                    <Image src={grizzly} width={0} height={0} sizes="100vw" style={{ width: '320px', height: '180px' }} alt='knoopo 64x download'/>
                   </div>
                 </Carousel>
 
