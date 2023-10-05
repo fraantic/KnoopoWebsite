@@ -294,11 +294,17 @@
             margin: 0;
             display: inline;
             font-weight: 900;
-            .green-dot {
-                display: inline;
-                color: #5141ff;
-            }
         }
+        .green-dot {
+            font-family: Poppins;
+            font-size: 120px;
+            margin: 0;
+            display: inline;
+            font-weight: 900;
+            display: inline;
+            color: #5141ff;
+        }
+        
         .contact-text {
             font-family: Poppins;
             color: rgb(200, 200, 200);
@@ -316,6 +322,8 @@
             width: auto;
             gap: 20px;
             align-items: center;
+            justify-content: center;
+            
             .nodec {
                 text-decoration: none;
             }

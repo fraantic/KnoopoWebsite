@@ -32,7 +32,7 @@ const Navi = (props) => {
             <Link className={`no-line ${props.Packs ? 'border-green' : ''}`}  href="/#texture-packs">
               <p className='locator-text'>Packs</p>
             </Link>
-            <Link className={`no-line ${props.Contact ? '' : ''}`} href="#knoopo-text">
+            <Link className={`no-line ${props.Contact ? '' : ''}`} href="/#contact">
               <p className='locator-text'>Contact</p>
             </Link>
           </div>

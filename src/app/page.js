@@ -10,6 +10,7 @@ import './landing.scss'
 import Reveal from '@/components/Reveal/Reveal'
 import RevealSlide from '@/components/Reveal/Revealbox'
 import Navi from '@/components/Navi/Navi'
+import Footer from '@/components/Footer/Footer'
 
 import youtube from '../../public/svgs/youtube.svg'
 import twitter from '../../public/svgs/twitter.svg'
@@ -24,6 +25,7 @@ import blocks from '../../public/pngs/blocks.png'
 import iman from '../../public/pngs/iman.png'
 import miro from '../../public/pngs/miro.png'
 import fatasi from '../../public/pngs/fantasi.png'
+import chub from '../../public/pngs/chub.png'
 
 import grizzly from '../../public/packimg/grizzly.png'
 
@@ -207,6 +209,15 @@ const Page = () => {
                     <div className='staff-desc-container'>
                       <p className='desc-text-staff' >Admin</p>
                       <p className='desc-text-staff' >iman</p>
+                    </div>
+                  </div>
+                </Reveal>
+                <Reveal>
+                  <div className='staff-display'>
+                    <Image src={miro} width={0} height={0} sizes="100vw" style={{ width: '45px', height: '45px' }} className='profile-image' alt='knoopo youtube'/>
+                    <div className='staff-desc-container'>
+                      <p className='desc-text-staff' >Admin</p>
+                      <p className='desc-text-staff' >miro</p>
                     </div>
                   </div>
                 </Reveal>
@@ -605,10 +616,12 @@ const Page = () => {
       </div>
 
       <div className='contact-container'>
+        <div id="contact" className='nav-to'></div>
         <div className='contact-item-contaier'>
           <div>
             <Reveal>
-              <p className='big-contact'>Contact<p className='green-dot'>.</p></p> 
+              <p className='big-contact'>Contact</p> 
+              <p className='green-dot'>.</p>
             </Reveal>
           </div>
           <div>
@@ -626,17 +639,18 @@ const Page = () => {
             </Reveal>
           </div>
           <div className='email-container'>
-            <Reveal>
-            <Image src={email} width={0} height={0} sizes="100vw" style={{ width: '30px', height: '30px' }} alt='download grizzly'/>
-              <Link className='nodec' href="mailto:knoopobear@gmail.com">
-                <p className='email-text'>knoopobear@gmail.com</p>
-              </Link>
-            </Reveal>
+          <Reveal>
+              <Image src={email} width={0} height={0} sizes="100vw" style={{ width: '30px', height: '30px' }} alt='download grizzly'/>
+          </Reveal>
+          <Reveal>
+            <Link className='nodec email-text' href="mailto:knoopobear@gmail.com"> knoopobear@gmail.com </Link>
+          </Reveal>
           </div>
         </div>
       </div>
 
     </div>
+    <Footer/>
     </>
   )
 }

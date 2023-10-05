@@ -1,7 +1,5 @@
 import React from 'react';
 
-import Footer from '@/components/Footer/Footer'
-
 import './layout.scss'
 
 const RootLayout = ({ children }) => {
@@ -16,7 +14,7 @@ const RootLayout = ({ children }) => {
 
       <body className='noborder hide-scrollbar'>
         <div>{children}</div>
-        <Footer/>
+        
         
       </body>
       
