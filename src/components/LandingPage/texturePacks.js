@@ -30,6 +30,7 @@ import thumbnailGilded from '../../../public/packimg/gilded/thumbnail.png'
 //Cuppa
 import Cuppa from '../../../public/packimg/cuppa/pack.png'
 import showcaseCuppa from '../../../public/packimg/cuppa/showcase.png'
+import thumbnailCuppa from '../../../public/packimg/cuppa/thumbnail.png'
 
 //Elder Nerd
 import ENerd from '../../../public/packimg/Enerd/pack.png'
@@ -151,8 +152,9 @@ const TexturePacks = () => {
       desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has",
       link: "ttps://www.mediafire.com/file/e9a077ude8fzlrl/!_§bCUPPA_§3(64x).zip/file",
       img: [
-      { id: 1, name: Cuppa, alt: "Cuppa download"},
-      { id: 2, name: showcaseCuppa, alt: "Cuppa knoopo"}]
+      { id: 1, name: thumbnailCuppa, alt: "Cuppa texturepack"},
+      { id: 2, name: Cuppa, alt: "Cuppa download"},
+      { id: 3, name: showcaseCuppa, alt: "Cuppa knoopo"}]
     },
     {
       packnum: 6,
@@ -177,7 +179,7 @@ const TexturePacks = () => {
       desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has",
       link: "https://www.mediafire.com/file/e6g1xx313yidgdq/%C2%A73Kleos__%C2%A79%28Mashup_64x%29.zip/file",
       img: [
-      { id: 1, name: thumbnailKleos, alt: "Kleos download"},
+      { id: 1, name: thumbnailKleos, alt: "Kleos texturepack download"},
       { id: 2, name: Kleos, alt: "Kleos download"},
       { id: 3, name: showcaseKleos, alt: "Kleos knoopo"}]
     },
