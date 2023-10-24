@@ -8,7 +8,7 @@ import email from '../../../public/pngs/email.png'
 
 const ContactKnoopo = () => {
   return (
-  <div className='contact-container'>
+  <div id="contact-container" className='contact-container'>
     <div id="contact" className='nav-to'></div>
     <div className='contact-item-contaier'>
       <div>
