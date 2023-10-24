@@ -71,19 +71,54 @@
         height: 700px;
         width: 60px;
 
-        display: flex;
-        gap: 30px;
+        
         flex-direction: column;
         align-items: center;
         
-        
-
+        .ant-anchor-ink-visible {
+          display: none;
+        }
         .no-line {
           text-decoration: none;
         }
+        .ant-anchor {
+          display: flex;
+          gap: 60px;
+          flex-direction: column;
+          height: 500px;
+          align-items: center;
+          top: 0px;
+        }
+        .ant-anchor-link {
+          padding: 0;
+        }
+
+        .ant-anchor-link-active {
+          margin-right: 0px;
+        }
+
+        .ant-anchor-link-title {
+          font-size: 16px;
+          font-family: Poppins;
+          height: auto;
+          width: auto;
+          color: white;
+        }
+
+        .ant-anchor-link-title-active {
+          font-family: Poppins;
+          height: auto;
+          width: auto;
+          color: #1677ff;
+          padding-top: 5px;
+          border-top: #1677ff solid 2px;
+        }
 
         .locator-text {
+          width: auto;
           font-family: Poppins;
+          text-decoration: none;
+          color: white !important;
           transform: rotate(90deg);
         }
       }

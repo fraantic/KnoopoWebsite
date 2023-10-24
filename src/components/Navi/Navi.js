@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState }  from 'react';
 import Image from 'next/image'
 import knoopo from '../../../public/pngs/knoopoPFP.png'
 import discord from '../../../public/svgs/discord.svg'
@@ -8,10 +8,9 @@ import twitter from '../../../public/svgs/twitter.svg'
 import './Navi.scss'
 import './button.scss'
 import Link from 'next/link';
-
+import { Anchor, Col } from 'antd';
 
 const Navi = (props) => {
-
 
   return (
     <div className='nav-Container'>
@@ -20,21 +19,39 @@ const Navi = (props) => {
         <div className='nav-Bar-Container-left'>
           <Image src={knoopo} width={0} height={0} sizes="100vw" style={{ width: '40px', height: '40px' }} alt="knoopoimage" className='Knoopo-img'/>
           <div className='locator'>
-            <Link className={`no-line ${props.Landing ? 'border-green' : ''}`} href="/#landing">
-              <p className='locator-text'>Landing</p>
-            </Link>
-            <Link className={`no-line ${props.About ? '' : ''}`} href="/#about">
-              <p className='locator-text'>About</p>
-            </Link>
-            <Link className={`no-line ${props.Packs ? 'border-green' : ''}`}  href="/#guild">
-              <p className='locator-text'>Guild</p>
-            </Link>
-            <Link className={`no-line ${props.Packs ? 'border-green' : ''}`}  href="/#texture-packs">
-              <p className='locator-text'>Packs</p>
-            </Link>
-            <Link className={`no-line ${props.Contact ? '' : ''}`} href="/#contact">
-              <p className='locator-text'>Contact</p>
-            </Link>
+            <Anchor
+            items={[ 
+              { 
+                className: 'locator-text',
+                key: 'Landing',
+                href: '#landing',
+                title: 'Landing',
+              },
+              {
+                className: 'locator-text',
+                key: 'About',
+                href: '#about',
+                title: 'About',
+              },
+              {
+                className: 'locator-text',
+                key: 'Guild',
+                href: '#guild',
+                title: 'Guild',
+              },
+              {
+                className: 'locator-text',
+                key: 'Packs',
+                href: '#texture-packs',
+                title: 'Packs',
+              },
+              {
+                className: 'locator-text',
+                key: 'Contact',
+                href: '#contact-container',
+                title: 'Contact',
+              }]}
+            />
           </div>
         </div>
         
