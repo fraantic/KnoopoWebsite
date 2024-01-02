@@ -1,8 +1,5 @@
-"use client";
-
-import React, { useState, useEffect, useRef } from 'react'
+import React from 'react'
 import './landing.scss'
-
 import Reveal from '@/components/Reveal/Reveal'
 import Navi from '@/components/Navi/Navi'
 import Footer from '@/components/Footer/Footer'
@@ -13,8 +10,8 @@ import TexturePacks from '@/components/LandingPage/texturePacks';
 
 
 
-
-const Page = () => {
+// eslint-disable-next-line @next/next/no-async-client-component
+const Page = async () => {
   return (
     <>
     <Navi className='noborder' />

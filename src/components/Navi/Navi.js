@@ -1,4 +1,4 @@
-import React, { useEffect, useState }  from 'react';
+import React from 'react';
 import Image from 'next/image'
 import knoopo from '../../../public/pngs/knoopoPFP.png'
 import discord from '../../../public/svgs/discord.svg'
