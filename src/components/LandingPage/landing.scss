@@ -47,17 +47,18 @@
   position: relative;
   float: right;
   width: calc(100% - 60px);
-  height: 2200px;
+  height: auto;
   flex-direction: column;
   box-shadow: rgba(0, 0, 0, 0.12) 0px -12px 30px;
   overflow: hidden;
+  padding-bottom: 70px;
 
 
   .packslist {
       margin-left: 30px;
       position: relative;
       width: calc(100% - 60px);
-      height: 800px;
+      height: auto;
       display: flex;
       align-items: flex-start;
       row-gap: 30px;
