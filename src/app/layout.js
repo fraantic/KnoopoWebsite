@@ -20,8 +20,10 @@ const RootLayout = ({ children }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>Knoopo</title>
         <link rel="icon" href="../../public/favicon/favicon.ico" sizes="any" />
-        <meta name="google-site-verification" content="0cJDRxplqGtku-JxOsOSNMwdtJxX5J6yv7REVJfF84Q" />
       </Head>
+      <head>
+        <meta name="google-site-verification" content="0cJDRxplqGtku-JxOsOSNMwdtJxX5J6yv7REVJfF84Q" />
+      </head>
 
       <body className='noborder hide-scrollbar'>
         <div>{children}</div>
