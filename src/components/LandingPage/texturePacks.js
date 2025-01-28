@@ -7,7 +7,10 @@ import { Carousel } from 'antd';
 import download from '../../../public/svgs/download.svg' 
 
 async function getData() {
-  const res1 = await fetch('https://strapi-production-5f70.up.railway.app/api/packs?populate=*', { next: { revalidate: 30 } })
+  const res1 = await fetch(
+    "https://knoopobackend.onrender.com/api/packs?populate=*",
+    { next: { revalidate: 30 } }
+  );
   return res1.json()
 }
 
